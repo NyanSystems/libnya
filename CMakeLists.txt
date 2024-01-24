@@ -27,7 +27,6 @@ set_target_properties(
         ${BINARY_NAME} PROPERTIES
         VERSION        ${LIBRARY_VERSION_STRING}
         SOVERSION      ${LIBRARY_VERSION_MAJOR}
-        PUBLIC_HEADER  ${NYAN_HDR}
 )
 
 # ==================
@@ -41,5 +40,9 @@ add_definitions("-g")
 install(
         TARGETS ${BINARY_NAME}
         LIBRARY DESTINATION lib
-        PUBLIC_HEADER DESTINATION include
+)
+
+install(
+        FILES ${NYAN_HDR}
+        DESTINATION include
 )
