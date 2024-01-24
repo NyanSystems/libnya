@@ -39,4 +39,4 @@ void buffer_write(struct buffer *buffer, char c);
 void *buffer_ptr(struct buffer *buffer);
 void buffer_free(struct buffer *buffer);
 
-#endif //BUFFER_H
+#endif // BUFFER_H
