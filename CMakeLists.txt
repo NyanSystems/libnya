@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.27)
 
-set(PROJECT_NAME "Nyan Systems Inc. Library")
+set(PROJECT_NAME LibNya)
 set(BINARY_NAME nya)
 
 project(${PROJECT_NAME} C)
