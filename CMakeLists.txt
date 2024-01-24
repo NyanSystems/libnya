@@ -3,4 +3,10 @@ project(libnya C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_library(libnya SHARED library.c)
+include_directories(include)
+
+add_library(nya SHARED src/library.c
+        src/vector.c
+        include/vector.h
+        src/buffer.c
+        include/buffer.h)

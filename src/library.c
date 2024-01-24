@@ -1,4 +1,4 @@
-#include "library.h"
+#include "../include/library.h"
 
 #include <stdio.h>
 
