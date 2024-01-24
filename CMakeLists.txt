@@ -21,7 +21,7 @@ file(GLOB NYAN_HDR CONFIGURE_DEPENDS "include/*.h")
 
 include_directories(include)
 
-add_library(${BINARY_NAME} SHARED ${NYAN_SRC})
+add_library(${BINARY_NAME} STATIC ${NYAN_SRC})
 
 set_target_properties(
         ${BINARY_NAME} PROPERTIES
