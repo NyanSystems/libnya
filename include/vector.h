@@ -1,5 +1,5 @@
 //
-// Created by Sokhibjon Orzikulov on 24/01/24.
+// Created by Sokhibjon Orzikulov on 15/01/24.
 //
 
 /**
@@ -17,9 +17,7 @@
 
 #include <stdbool.h>
 #include <stddef.h>
-#include <stdint.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * We want at least 20 vector element spaces in reserve before having
