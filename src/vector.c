@@ -12,7 +12,7 @@
  * @license MIT
  */
 
-#include "../include/vector.h"
+#include "vector.h"
 #include <assert.h>
 #include <memory.h>
 #include <stdbool.h>
