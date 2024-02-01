@@ -6,17 +6,17 @@
 
 <div align="center">
     <a href="https://github.com/orgs/NyanSystems/repositories">
-        <img src="https://img.shields.io/static/v1.svg?style=rounded-square&label=Type&message=Language&logo=4chan&logoColor=311ac5&colorA=ead186&colorB=fe77ff"/>
+        <img src="https://img.shields.io/static/v1.svg?style=rounded-square&label=Type&message=Library&logo=4chan&logoColor=311ac5&colorA=ead186&colorB=fe77ff"/>
     </a> 
     <a href="https://github.com/NyanSystems/nya/blob/main/flake.nix">
-        <img src="https://img.shields.io/static/v1.svg?style=rounded-square&label=Target&message=*NIX&logo=nixos&logoColor=311ac5&colorA=ead186&colorB=fe77ff"/>
+        <img src="https://img.shields.io/static/v1.svg?style=rounded-square&label=Target&message=ANY&logo=nixos&logoColor=311ac5&colorA=ead186&colorB=fe77ff"/>
     </a>
 </div>
 
-<p align="center">Bizning tizimlarimiz qo'llab quvvatlab turuvchi kutubxona.</p>
+<p align="center">Bizning tizimlarimiz qo'llab quvvatlovchi kutubxona.</p>
 
 
-Libnya bu butun [Nyan Systems Inc.] tomonidan yoziladigan dastur va komponentlarni qo'llab quvvatlab turuvchi yordamchi kutubxona hisoblanib, o'zida [C dasturlash tili](https://en.wikipedia.org/wiki/C_(programming_language)) o'zida kelmaydigan har xil implementatsiyalarni o'z ichiga oladi.
+Libnya bu butun [Nyan Systems Inc.] tomonidan yoziladigan dastur va komponentlarni qo'llab quvvatlovchi yordamchi kutubxona hisoblanib, [C dasturlash tili](https://en.wikipedia.org/wiki/C_(programming_language)) o'zida kelmaydigan har xil yordamchi abstraksiyalar implementatsiyalarni o'z ichiga oladi.
 
 ## Boshlash
 
@@ -27,7 +27,9 @@ Hozirgi holatda bizda Nix paket menejeridan boshqa paket menejerlarini qo'llab q
 Yoki hozircha keling Nix paket menejeri orqali ishlatib turamiz:
 
 ```shell
-# To be written better guide for nix users
+# TODO:
+# Nix bilan muammolar hal bo'lgach
+# Batafsil ko'rsatma yozish kerak
 ```
 
 ### Ishlash
@@ -35,12 +37,10 @@ Yoki hozircha keling Nix paket menejeri orqali ishlatib turamiz:
 Loyiha a'zolari tomonidan iloji boricha Nix paket menejeri qo'llaniladi va ushbu metodika tavsiya qilinadi, loyihada dasturchi muhitini yaratish uchun nixdagi dev env ishlatiladi. Istalgan 2 muhitlardan birini foydalanish mumkin:
 
 ```shell
-# flake.nix dan tortib oladi 
-# (default bash shell ishlatiladi)
+# default bash shell ishlatiladi
 nix develop
 
-# flake.nix dan tortib oladi 
-# (bu dasturchi o'zini shelli da ochadi)
+# dasturchi o'zini default shell ida ochadi
 nix develop -c "$SHELL"
 ```
 
