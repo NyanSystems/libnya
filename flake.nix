@@ -60,9 +60,9 @@
 
       # Terminaldagi muhitni ishlash uchun kerakli qismlar sozlash.
       shellHook = let
-        icon = "f121";
+        icon = "(´｡• ω •｡`)";
       in ''
-        export PS1="$(echo -e '\u${icon}') {\[$(tput sgr0)\]\[\033[38;5;228m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]} (${name}) \\$ \[$(tput sgr0)\]"
+        export PS1="\[$(tput setaf 1)\]$(echo -e '${icon}')\[$(tput setaf 2)\] {\[$(tput setaf 3)\]\w\[$(tput setaf 2)\]} \[$(tput setaf 5)\](${name})\[$(tput setaf 6)\] \\$ -> \[$(tput sgr0)\]"
       '';
     };
 
